@@ -1,0 +1,8 @@
+export { ShortsContentComponent } from './shortsContent'
+export { AboutContentComponent } from './aboutContent'
+export { ContactContentComponent } from './contactContent'
+export { NavbarComponent } from './navbar'
+export { DocumentariesContentComponent } from './documentariesContent'
+export { FooterComponent } from './footer'
+export { FilmDetailsComponent } from './filmDetails'
+export { HomeContentComponent } from './homeContent'

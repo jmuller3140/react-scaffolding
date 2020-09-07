@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VinFlix: A Vincentian Initiative</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="${require('../img/apple-touch-icon.png')}">
+    <link rel="mask-icon" href="${require('../img/safari-pinned-tab.svg')}" color="#241c1c">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177241908-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177241908-1');
+    </script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script defer crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script defer crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script defer crossorigin src="https://unpkg.com/redux@4.0.0/dist/redux.min.js"></script>
+    <script defer crossorigin src="https://unpkg.com/react-redux@5.0.7/dist/react-redux.min.js"></script>
+
+    <script defer crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-router/4.3.1/react-router.js"></script>
+    <script defer crossorigin
+        src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/4.3.1/react-router-dom.js"></script>
+    <script defer crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/redux-saga/0.16.0/redux-saga.js"></script>
+    <script>
+        window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = function () { };
+        window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ = function () {};
+    </script>
+</body>
+
+</html>

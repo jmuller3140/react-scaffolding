@@ -1,0 +1,64 @@
+@import "./variables";
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@keyframes flickerDangerAnimation {
+  0%   { opacity:1; background-color: $danger}
+  50%  { opacity:0; }
+  100% { opacity:1; background-color: $danger}
+}
+@-o-keyframes flickerDangerAnimation{
+  0%   { opacity:1; background-color: $danger}
+  50%  { opacity:0; }
+  100% { opacity:1; background-color: $danger}
+}
+@-moz-keyframes flickerDangerAnimation{
+  0%   { opacity:1; background-color: $danger}
+  50%  { opacity:0; }
+  100% { opacity:1; background-color: $danger}
+}
+@-webkit-keyframes flickerDangerAnimation{
+  0%   { opacity:1; background-color: $danger}
+  50%  { opacity:0; }
+  100% { opacity:1; background-color: $danger}
+}
+
+@keyframes flickerWarningAnimation {
+  0%   { opacity:1; background-color: $warning}
+  50%  { opacity:1; }
+  100% { opacity:1; background-color: $warning}
+}
+@-o-keyframes flickerWarningAnimation{
+  0%   { opacity:1; background-color: $warning}
+  50%  { opacity:1; }
+  100% { opacity:1; background-color: $warning}
+}
+@-moz-keyframes flickerWarningAnimation{
+  0%   { opacity:1; background-color: $warning}
+  50%  { opacity:1; }
+  100% { opacity:1; background-color: $warning}
+}
+@-webkit-keyframes flickerWarningAnimation{
+  0%   { opacity:1; background-color: $warning}
+  50%  { opacity:1; }
+  100% { opacity:1; background-color: $warning}
+}
